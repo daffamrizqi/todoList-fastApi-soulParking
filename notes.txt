@@ -1,0 +1,18 @@
+The API should provide URLs below:
+- /todo (POST) create todo ====> UUID and date
+- /todo (GET) get All todo ====> DONE
+- /todo/<id> (GET) get todo by ID ====> DONE
+- /todo/<id> (PUT/PATCH) update todo ====> DONE
+- /todo/<id>/finish finish todo ====> DONE
+- /todo/<id> (DELETE) soft delete todo ====> DONE
+
+The todo objects should have several keys:
+- Id: unique ID
+- title: Title of the to-do
+- description: Description of the to-do
+- finished_at: Time explains that the todo was finished.
+- created_adt: Time explains that the todo was created.
+- updated_at: Time explains that the todo was updated.
+- deleted_at: Time explains that the todo was deleted.
+
+The format of the date should be in d-m-Y H:i:s (28-12-2022 18:34:59)
