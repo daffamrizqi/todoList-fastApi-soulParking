@@ -33,7 +33,7 @@ db: List[Todo] = [
 
 @app.get('/')
 async def root():
-    return{"mMssage": "Hello Soul Parking!"}
+    return{"Message": "Hello Soul Parking!"}
 
 
 # get all todos
